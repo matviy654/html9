@@ -1,0 +1,225 @@
+<!-- # task1 -->
+<!-- <!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Продукти</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <div class="product-list">
+        <div class="product">
+            <img src="icon1.png" alt="Product 1">
+            <p>Product 1</p>
+        </div>
+        <div class="product">
+            <img src="icon2.png" alt="Product 2">
+            <p>Product 2</p>
+        </div>
+        <div class="product">
+            <img src="icon3.png" alt="Product 3">
+            <p>Product 3</p>
+        </div>
+        <div class="product">
+            <img src="icon4.png" alt="Product 4">
+            <p>Product 4</p>
+        </div>
+        <div class="product">
+            <img src="icon5.png" alt="Product 5">
+            <p>Product 5</p>
+        </div>
+    </div>
+    <p class="footer">that's all</p>
+</body>
+</html> -->
+<!-- task2 -->
+<!-- <!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Vertical Menu</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            margin: 0;
+            padding: 0;
+            background-color: #f5f5f5;
+        }
+        .menu {
+            width: 200px;
+            background-color: #b0b0b0;
+            padding: 0;
+            margin: 0;
+            list-style: none;
+        }
+        .menu li {
+            display: flex;
+            align-items: center;
+            padding: 15px;
+            color: white;
+            transition: background-color 0.3s;
+        }
+        .menu li:hover {
+            background-color: #7a7a7a;
+        }
+        .menu li .icon {
+            margin-right: 10px;
+        }
+        .menu li .icon img {
+            width: 24px;
+            height: 24px;
+        }
+    </style>
+</head>
+<body>
+    <ul class="menu">
+        <li>
+            <div class="icon"><img src="https://img.icons8.com/material-outlined/24/000000/edit.png" alt="Edit Icon"></div>
+            <div class="text">Edit</div>
+        </li>
+        <li>
+            <div class="icon"><img src="https://img.icons8.com/ios-glyphs/24/000000/like.png" alt="Favorites Icon"></div>
+            <div class="text">Favorites</div>
+        </li>
+        <li>
+            <div class="icon"><img src="https://img.icons8.com/material-outlined/24/000000/time.png" alt="History Icon"></div>
+            <div class="text">History</div>
+        </li>
+        <li>
+            <div class="icon"><img src="https://img.icons8.com/material-rounded/24/000000/shield.png" alt="Security Icon"></div>
+            <div class="text">Security</div>
+        </li>
+        <li>
+            <div class="icon"><img src="https://img.icons8.com/ios-glyphs/24/000000/settings.png" alt="Settings Icon"></div>
+            <div class="text">Settings</div>
+        </li>
+    </ul>
+</body>
+</html> -->
+<!-- task3 -->
+<!-- <!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Layout</title>
+    <style>
+        body {
+            display: grid;
+            grid-template-areas: 
+                "header header header"
+                "menu menu menu"
+                "aside1 main aside3"
+                "aside2 main aside3"
+                "footer footer footer";
+            grid-template-columns: 1fr 3fr 1fr;
+            grid-template-rows: auto;
+            gap: 10px;
+        }
+        header {
+            grid-area: header;
+            background-color: #800040;
+            color: white;
+            text-align: center;
+            padding: 10px;
+        }
+        menu {
+            grid-area: menu;
+            background-color: #A00050;
+            color: white;
+            text-align: center;
+            padding: 10px;
+        }
+        aside:nth-of-type(1) {
+            grid-area: aside1;
+            background-color: #C06070;
+            color: white;
+            padding: 10px;
+        }
+        aside:nth-of-type(2) {
+            grid-area: aside2;
+            background-color: #D07080;
+            color: white;
+            padding: 10px;
+        }
+        aside:nth-of-type(3) {
+            grid-area: aside3;
+            background-color: #800040;
+            color: white;
+            text-align: center;
+            padding: 10px;
+            writing-mode: vertical-rl;
+        }
+        main {
+            grid-area: main;
+            background-color: #B05060;
+            color: white;
+            padding: 10px;
+        }
+        footer {
+            grid-area: footer;
+            background-color: #800040;
+            color: white;
+            text-align: center;
+            padding: 10px;
+        }
+        section {
+            margin-bottom: 10px;
+            background-color: #D08090;
+            padding: 10px;
+        }
+    </style>
+</head>
+<body>
+    <header>HEADER</header>
+    <menu>MENU</menu>
+    <aside>ASIDE 1</aside>
+    <aside>ASIDE 2</aside>
+    <main>
+        MAIN CONTENT
+        <section>SECTION 1</section>
+        <section>SECTION 2</section>
+    </main>
+    <aside>ASIDE 3</aside>
+    <footer>FOOTER</footer>
+</body>
+</html> -->
+<!-- task4 -->
+<!-- <!DOCTYPE html>
+<html lang="uk">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="styles.css">
+    <title>Footer Example</title>
+</head>
+<body>
+    <footer>
+        <div class="footer-content">
+            <ul class="footer-links">
+                <li><a href="#">Home</a></li>
+                <li><a href="#">About</a></li>
+                <li><a href="#">Gallery</a></li>
+                <li><a href="#">News</a></li>
+            </ul>
+            <ul class="footer-links">
+                <li><a href="#">Blog</a></li>
+                <li><a href="#">FAQ</a></li>
+                <li><a href="#">Contacts</a></li>
+                <li><a href="#">Privacy & cookies</a></li>
+            </ul>
+            <div class="social-icons">
+                <a href="#" class="icon facebook"><img src="facebook-icon.png" alt="Facebook"></a>
+                <a href="#" class="icon twitter"><img src="twitter-icon.png" alt="Twitter"></a>
+                <a href="#" class="icon linkedin"><img src="linkedin-icon.png" alt="LinkedIn"></a>
+                <a href="#" class="icon youtube"><img src="youtube-icon.png" alt="YouTube"></a>
+            </div>
+        </div>
+        <div class="footer-bottom">
+            <p>&copy; Company 2018 - 2019</p>
+        </div>
+    </footer>
+</body>
+</html> -->
